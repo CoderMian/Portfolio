@@ -10,7 +10,7 @@ function Contact() {
   const form = useRef();
   const sendEmail = (e) => {
     e.preventDefault();
-    e.target.reset();
+
     emailjs
       .sendForm(
         "service_v393eje",
@@ -26,6 +26,7 @@ function Contact() {
           console.log(error.text);
         }
       );
+    e.target.reset();
   };
   return (
     <section id="contact">
