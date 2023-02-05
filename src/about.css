@@ -43,6 +43,7 @@
   background: transparent;
   border-radius: var(--color-primary-variant);
   cursor: default;
+  /* border-color: var(--color-bg-variant); */
 }
 .about_icon {
   color: var(--color-primary);

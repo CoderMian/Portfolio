@@ -1,5 +1,5 @@
 import React from "react";
-import ME from "../../src/assets/me_about.jpg";
+import ME from "../../src/assets/me_about.png";
 import { FaAward } from "react-icons/fa";
 import { FiUser } from "react-icons/fi";
 import { VscFolderLibrary } from "react-icons/vsc";
@@ -21,24 +21,25 @@ function About() {
             <article className="about_card">
               <FaAward className="about_icon" />
               <h5>Experience</h5>
-              <small>3+ Years Working</small>
+              <small>3+ Months Working</small>
             </article>
             <article className="about_card">
               <FiUser className="about_icon" />
-              <h5>Clients</h5>
-              <small>200+ WorldWide</small>
+              <h5>FYP</h5>
+              <small>A+ Grade</small>
             </article>
             <article className="about_card">
               <VscFolderLibrary className="about_icon" />
               <h5>Projects</h5>
-              <small>80+</small>
+              <small>20+</small>
             </article>
           </div>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore sit
-            atque nam, ullam est corporis nisi rem adipisci architecto inventore
-            omnis repellendus veritatis delectus perferendis provident numquam,
-            dolor temporibus sequi.
+            I’m always energetic and eager to learn new skills Flexible in my
+            working hours, being able to work evenings and weekends. Committed
+            to learning and self-development so that I can consistently achieve
+            better results. Even though I take my work seriously, I do have a
+            good sense of humor.
           </p>
           <a href="#contact" className="btn btn-primary">
             Let's Talk

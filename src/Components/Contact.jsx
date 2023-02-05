@@ -4,8 +4,8 @@ import { RiMessengerLine } from "react-icons/ri";
 import { BsWhatsapp } from "react-icons/bs";
 import "../../src/contact.css";
 import { useRef } from "react";
+import { toast } from "react-toastify";
 import emailjs from "emailjs-com";
-
 function Contact() {
   const form = useRef();
   const sendEmail = (e) => {
@@ -20,12 +20,17 @@ function Contact() {
       )
       .then(
         (result) => {
-          console.log(result.text);
+          toast.info("Message Sent!", {
+            position: toast.POSITION.TOP_CENTER,
+          });
         },
         (error) => {
-          console.log(error.text);
+          toast.error("Message Not Sent!", {
+            position: toast.POSITION.TOP_CENTER,
+          });
         }
       );
+
     e.target.reset();
   };
   return (
@@ -38,7 +43,6 @@ function Contact() {
             <MdOutlineEmail className="contact_option-icon" />
             <h4>Email</h4>
             <h5 className="myemail">muhammadnomantariq1999@gmail.com</h5>
-
             <a
               href="mailto:muhammadnomantariq1999@gmail.com?subject=Hello Noman!I want chat with you..&body=Great Work!!%20Impressed with your portfolio.."
               target="_blank"

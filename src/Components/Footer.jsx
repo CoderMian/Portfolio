@@ -45,7 +45,8 @@ function Footer() {
           </a>
         </div>
         <div className="footer_copyright">
-          <small>&copy; CoderMian. All rights reserved.</small>
+          <small>&copy;CoderMian. All rights reserved.</small>
+          
         </div>
       </footer>
     </section>
