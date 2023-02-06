@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "6e6786733e95a0f6921a",
+    "revision": "056cf640517d76a3a6cf",
     "url": "/Portfolio_Website/static/css/main.584ebdfe.chunk.css"
   },
   {
-    "revision": "6e6786733e95a0f6921a",
-    "url": "/Portfolio_Website/static/js/main.6e678673.chunk.js"
+    "revision": "056cf640517d76a3a6cf",
+    "url": "/Portfolio_Website/static/js/main.056cf640.chunk.js"
   },
   {
     "revision": "dca74a035a2640b5084a",
@@ -24,8 +24,8 @@ self.__precacheManifest = [
     "url": "/Portfolio_Website/static/js/runtime~main.115141cf.js"
   },
   {
-    "revision": "8c2b1453718cdc6e03d3bb0caa04b4d1",
-    "url": "/Portfolio_Website/static/media/personal_resume.8c2b1453.pdf"
+    "revision": "ac40756d67871da7221670adbce2f310",
+    "url": "/Portfolio_Website/static/media/Noman_Tariq_r.ac40756d.pdf"
   },
   {
     "revision": "0f73c419930a3cdba6009c2ff4e52e5d",
@@ -72,7 +72,7 @@ self.__precacheManifest = [
     "url": "/Portfolio_Website/static/media/portfolio8.23013c61.png"
   },
   {
-    "revision": "f82a7c0866404635504c23f1b4618adf",
+    "revision": "bea8110c6ed8f5ae86cec9b47bfcb0e6",
     "url": "/Portfolio_Website/index.html"
   }
 ];
